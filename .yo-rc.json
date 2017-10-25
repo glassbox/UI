@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitHubOrganization": "glassbox",
+    "baseName": "UI",
+    "packageName": "com.qucera.servive.ui",
+    "serverPort": 8060,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "hibernateCache": "no",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "enableSocialSignIn": false,
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "ar-ly",
+      "en",
+      "fr",
+      "es"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.10.0",
+    "packageFolder": "com/qucera/servive/ui",
+    "jwtSecretKey": "0261674f3d28787fcb97818cec03c62b0330ec17",
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
